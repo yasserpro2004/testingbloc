@@ -7,6 +7,6 @@ class NamesCubit extends Cubit<String?> {
   NamesCubit() : super(null);
 
   void getRandomName() {
-    emit(names.getRandomElement());
+    //emit(names.getRandomElement());
   }
 }
